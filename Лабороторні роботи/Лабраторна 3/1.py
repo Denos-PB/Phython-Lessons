@@ -59,8 +59,7 @@ finally:
  print("\n----------")
 try:
  print(1, end="")
- print(1
-       / 0, end="")
+ print(1 / 0, end="")
 except ZeroDivisionError:
  print(2 / 0, end="")
  print(3, end="")
