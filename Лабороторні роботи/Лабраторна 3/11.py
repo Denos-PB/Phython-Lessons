@@ -1,6 +1,5 @@
 import math
 
-
 def calculate_triangle_area(a, b, c):
     if a <= 0 or b <= 0 or c <= 0:
         raise ValueError("Сторони трикутника повинні бути додатними числами")

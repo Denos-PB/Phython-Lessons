@@ -58,20 +58,18 @@ finally:
  #9
  print("\n----------")
 try:
- print(1, end="")
- print(1 / 0, end="")
+    print(1, end="")
+    print(1 / 0, end="")
 except ZeroDivisionError:
- print(2 / 0, end="")
- print(3, end="")
+    print(2 / 0, end="")
+    print(3, end="")
 except Exception:
- print(4, end="")
+    print(4, end="")
 else:
- print(5, end="")
+    print(5, end="")
 finally:
- print(6, end="")
+    print(6, end="")
 
- #11
- print("\n----------")
 def f(x):
      return 1 / x
 
