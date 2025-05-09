@@ -48,12 +48,13 @@ def avarage_credit(transactions):
 
 def months_with_highest_activity(transactions):
     ransactions_per_month = {}
-
+    count = 0
     for transaction in transactions:
         date_obj = datetime.strptime(transaction['date'], '%Y-%m-%d')
         month_key = date_obj.strftime('%Y-%m')
         transactions_per_month[month_key] = ransactions_per_month.get(month_key, 0) + 1
-        if ransactions_per_month
+        count += 1
+
 
 
 transactions_per_month(transactions)
