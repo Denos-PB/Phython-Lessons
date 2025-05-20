@@ -55,8 +55,6 @@ def months_with_highest_activity(transactions):
         transactions_per_month[month_key] = ransactions_per_month.get(month_key, 0) + 1
         count += 1
 
-
-
 transactions_per_month(transactions)
 total_balance(transactions)
 average_debit(transactions)
